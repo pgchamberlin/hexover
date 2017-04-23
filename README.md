@@ -1,6 +1,6 @@
 # Hexover
 
-## An API for searching for similar colours.
+## An API for searching for similar colours.
 
 Hexover uses the colors from [Colorly](https://github.com/jpederson/Colorly) and the search library [kd-tree-javascript](https://github.com/ubilabs/kd-tree-javascript) to provide an API for matching a hex colour code to similar commercially available swatches, such as Pantone colours.
 
