@@ -22,12 +22,8 @@ PORT=3210 index.js
 ```
 ## Output
 
-Hexover will output 
+Hexover will output the 3 nearest colour values in its index to the hex code argument. If you want to change the default, it is the second parameter to `tree.nearest` in `index.js` and you can change it there. If Hexover finds fewer near matches than this value requests then it may return a shortened or empty result.
 
 ## More extensive usage
 
 By default Hexover only searches against the Pantone colours from `/src/pantone_data`. There's a lot more data from other colour books in Colorly's dataset. That's all in `/src/data`, and you can index it by manipulating and running `./build_index.js`.
-
-By default Hexover returns the 3 nearest colour values in its index. This is the second parameter to `tree.nearest` in `index.js`, and you can change it there.
-
-If Hexover finds fewer near matches than you requested, or none, then it may return a shorter or empty result.
