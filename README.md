@@ -13,7 +13,9 @@ npm install
 node index.js
 ```
 
-Hexover will run on port 3003 by default, but you can specify one. For example:
+Hexover will run on port `3003` by default, but you can specify one when you run it.
+
+For example:
 
 ```
 PORT=3210 index.js
