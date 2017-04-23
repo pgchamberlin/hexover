@@ -6,7 +6,7 @@ Hexover uses the colors from [Colorly](https://github.com/jpederson/Colorly) and
 
 ## Usage
 
-To run Hexover:
+To run Hexover as-is:
 
 ```
 npm install
@@ -20,3 +20,6 @@ For example:
 ```
 PORT=3210 index.js
 ```
+## More extensive usage
+
+By default Hexover only searches against the Pantone colours from `/src/pantone_data`. There's a lot more data from other colour books in Colorly's dataset. That's all in `/src/data`, and you can index it by manipulating and running `./build_index.js`.
