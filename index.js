@@ -49,7 +49,7 @@ const res400 = (res, msg) => {
 }
 
 app.get('/', function (req, res) {
-    res.send('<h1>Hexover</h1><p>GET /{hex code} to get Pantone colours similar to any hex RGB value.</p><p>For example: <a href="./1155bb">GET /1155bb</a></p>')
+    res.send('<h1>Hexover</h1><p>GET /{hex code} to get Pantone colours similar to any hex RGB value.</p><p>For example: <a href="./hexover/1155bb">GET /1155bb</a></p>')
 })
 
 app.get('/:hex', function (req, res) {
